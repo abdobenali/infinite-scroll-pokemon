@@ -4,7 +4,7 @@ import Main from "./component/Main";
 const App = () => {
   return (
     <>
-      <Main classname="bg-white dark:bg-gray-800" />
+      <Main attributes={{ classname: "bg-white dark:bg-gray-800" }} />
     </>
   );
 };
