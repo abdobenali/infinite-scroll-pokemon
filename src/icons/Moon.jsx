@@ -1,11 +1,11 @@
 import React from "react";
 
-const Sun = (props) => {
+const Moon = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      fill="#000000"
+      fill="black"
       {...props}
     >
       <g id="Dark">
@@ -15,4 +15,4 @@ const Sun = (props) => {
   );
 };
 
-export default Sun;
+export default Moon;

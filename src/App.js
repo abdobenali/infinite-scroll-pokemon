@@ -1,11 +1,12 @@
 import React from "react";
-import Main from "./component/Main";
+import ThemeProvider from "./providers/ThemeProvider";
+import Main from "./components/Main";
 
 const App = () => {
   return (
-    <>
+    <ThemeProvider>
       <Main className="bg-white dark:bg-gray-800" />
-    </>
+    </ThemeProvider>
   );
 };
 
